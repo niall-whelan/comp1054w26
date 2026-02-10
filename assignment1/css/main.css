@@ -1,0 +1,32 @@
+h1{
+    color: darkblue;   
+    letter-spacing: normal; 
+}
+h3{
+    font-size: 34px;
+}
+body{
+    background-color: palevioletred;
+}
+section > p{
+    background-color: lightcoral;
+    font-size: 28px;
+}
+div > p{
+    font-size: 16px;
+    font-family: "Fira Code", sans-serif;
+}
+main{
+    display: grid;
+    column-count: 3;
+    padding: 10px 10px 10px 10px;
+}
+main > section{
+    display: grid;
+    line-height: normal;
+    font-family: "Cute Font", sans-serif;
+}
+main > div{
+    display: grid;
+    line-height: normal;
+}
