@@ -17,11 +17,19 @@ html {
 	margin: 0 auto;
 }
 /* STEP 3a: Basic styling for the DETAILS element */
-
+details{
+	border: 5px solid grey;
+	padding: 0 1rem;
+	background-color: lightgray;
+}
 /* STEP 3b: Adjacent sibling DETAILS elements don't need a top border */
-
+details + details{
+	border-top: none;
+}
 /* STEP 3c: Brighten up the currently open DETAILS panel (the browser adds the "open" attribute to the active element) */
-
+details[open]{
+	background-color: white;
+}
 /* STEP 4: Make the SUMMARY look a bit like a heading, and address affordance by turning the mouse cursor into a pointer to encourage user interaction */
 
 /* STEP 5a: Disable the default triangle toggle - it is fine, but we should learn how to customize this part of the widget */
